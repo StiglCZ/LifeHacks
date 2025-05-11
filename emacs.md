@@ -1,5 +1,5 @@
 # How to disable the emacs init help message
-`(defun display-startup-echo-area-message ()`
+`(defun display-startup-echo-area-message ()` <br>
 `  (message nil))`
   
 # Revert file changes
