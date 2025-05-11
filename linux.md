@@ -8,3 +8,6 @@ Simply add `nvidia_drm.modeset=1 nvidia_drm.fbdev=0` to your kernel arguments, i
 # Fix doing focus next in i3wm on multiple monitors
 Add: `focus_wrapping workspace`, and it will always limit it to the 1 monitor
 
+# Controlling i3wm from bash
+Simply prefix the i3 command with i3-msg, like so: `i3-msg workspace 3` and execute
+ 
