@@ -27,3 +27,5 @@
 # Set the autocompletion dialog to appear instantly
 `(setq company-idle-delay 0.0)`
 
+# csharp-ls not showing hower-over docs
+Simply execute lsp agin
