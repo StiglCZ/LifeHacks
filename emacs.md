@@ -29,3 +29,8 @@
 
 # csharp-ls not showing hower-over docs
 Simply execute lsp agin
+
+# Disable top/tool/scroll bars in emacs
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+(tool-bar-mode -1) 
