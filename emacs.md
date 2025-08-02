@@ -34,3 +34,9 @@ Simply execute lsp agin
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1) 
+
+# LSP can't find headers with custom build system
+Easiest way to fix is to include compile_commands.json in your project, which you can generate with:
+- cmake: `set(EXPORT_COMPILE_COMMANDS TRUE)`
+- make:  `bear -- make`
+- other: `bear -- <build command>`
