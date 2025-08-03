@@ -31,7 +31,7 @@ Simply execute: `setxkbmap -option keypad:pointerkeys` and then press Shift + Nu
 
 # Change audio to mono
 ```
-pacmd \                                                                                                          [21:48:58]
+pacmd \
 load-module module-remap-sink \
 sink_name=mono \
 master=alsa_output.pci-0000_00_1f.3.analog-stereo \
