@@ -29,3 +29,12 @@ If you want to for example retain you user profile, often including the theme fo
 # No mouse on linux, controlling your mouse via keyboard
 Simply execute: `setxkbmap -option keypad:pointerkeys` and then press Shift + Numlock, and control the mouse with your numkeys. Everything except scrolling works fine.
 
+# Change audio to mono
+```
+pacmd \                                                                                                          [21:48:58]
+load-module module-remap-sink \
+sink_name=mono \
+master=alsa_output.pci-0000_00_1f.3.analog-stereo \
+channels=2 \
+channel_map=mono,mono
+```
